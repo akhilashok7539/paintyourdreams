@@ -9644,7 +9644,9 @@ textarea.form-control {
     color: white; }
 
 .block-6 {
-  margin-bottom: 40px; }
+  /* margin-bottom: 40px; */
+  margin-bottom: 40px;
+  margin-left: 18px; }
   .block-6 .media-body p {
     font-size: 16px; }
 
