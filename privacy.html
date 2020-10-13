@@ -41,14 +41,11 @@
                 <div class="col-12 col-md d-flex justify-content-md-end">
                     <div class="social-media">
                         <p class="mb-0 d-flex">
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                         <a href="https://www.facebook.com/Paint-Your-Dreams-106589701224946/" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+						
+							<a href="https://www.instagram.com/paint_your_dreams_kochi/" class="d-flex align-items-center justify-content-center"><span
+									class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
                         </p>
                     </div>
                 </div>
@@ -148,7 +145,7 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<!-- <h2 class="ftco-footer-logo">Paint Your Dreams</h2> -->
-						<img src="./images/logo2.png" alt="" style="width: 115px;
+						<img src="./images/logo2.png" alt="" style="width: 149px;
 						filter: invert(1);">
 						<p>Paint Your Dreams is a Kochi based painting service company with over 5 years of
 							experience in both residential and commercial painting services. Our services are customized
@@ -157,9 +154,8 @@
 							needs and executed from prep to clean-up by our professionally trained and experienced team
 							.</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
-							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.facebook.com/Paint-Your-Dreams-106589701224946/"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/paint_your_dreams_kochi/"><span class="fa fa-instagram"></span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -181,7 +177,8 @@
 
 							<li><a href="privacy.html" class="py-2 d-block">Privacy &amp; Policy</a></li>
 							<li><a href="terms.html" class="py-2 d-block">Terms &amp; Conditions</a></li>
-
+                             <li><a href="services.html" class="py-2 d-block">Warranty </a></li>
+                            
 						</ul>
 					</div>
 				</div>
@@ -220,34 +217,67 @@
 			</div>
 		</div>
 	</footer>
-    <style>
-        .float {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 40px;
-            right: 40px;
-            background-color: #0C9;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            box-shadow: 2px 2px 3px #999;
-        }
+  <style>
+    .float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 36px;
+      left: 40px;
+      background-color: #0C9;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+    }
 
-        .my-float {
-            margin-top: 22px;
-        }
-    </style>
-    <!-- END nav -->
+    .my-float {
+      margin-top: 22px;
+    }
+  </style>
+  <!-- END nav -->
 
-    <!-- Code begins here -->
+  <!-- Code begins here -->
 
-    <a href="https://api.whatsapp.com/send?phone=918589081828&text=hi,Paint Your Dreams" class="float">
-        <img src="./images/whatlog.png" alt="" style="    margin-top: 7px;
-   padding: 9px;
-   height: 46px;
+  <a href="https://api.whatsapp.com/send?phone=918589081828&text=hi,Paint Your Dreams" class="float">
+    <img src="./images/whatlog.png" alt="" style="    margin-top: 7px;
+padding: 9px;
+height: 46px;
 ">
-    </a>
+  </a>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" /></svg></div>
+        <script>
+          "use strict";
+      
+          !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+              if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+              t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function (e) {
+                  return function () {
+                    var n = Array.prototype.slice.call(arguments);
+                    return n.unshift(e), t.push(n), t;
+                  };
+                }, t.methods.forEach(function (e) {
+                  t[e] = t.factory(e);
+                }), t.load = function (t) {
+                  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                  var i = document.getElementsByTagName("script")[0];
+                  i.parentNode.insertBefore(o, i);
+                };
+            }
+          }();
+          drift.SNIPPET_VERSION = '0.3.1';
+          drift.load('hxa7exbnkdwb');
+        </script>
+
     
 </body>
 <script src="js/jquery.min.js"></script>
