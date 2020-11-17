@@ -39,7 +39,7 @@
           "title": "CONTACT FORM",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
           "form": {
-            "action": "paintyourdreamskl@gmail.com",
+            "action": "akhilashok7539@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
